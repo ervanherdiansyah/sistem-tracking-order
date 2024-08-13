@@ -396,7 +396,7 @@
                                                             <select class="form-control form-select" id="tracking_id${modalId}" name="tracking_id" aria-label=".form-select-sm example">
                                                                 <option selected>Pilih...</option>
                                                                 ${statusTracking.map(status => `<option value="${status.id}" ${status.id === data.tracking_id ? 'selected' : ''}>${status.nama_tracking}
-                                                                                                                                                                                                                                                                                                                                                                                                                                </option>`)}
+                                                                                                                                                                                                                                                                                                                                                                                                                                    </option>`)}
                                                             </select>
                                                         </div>
                                                     </div>
@@ -455,7 +455,7 @@
                                                         <select class="form-control form-select" name="tracking_id" aria-label=".form-select-sm example">
                                                             <option selected>Pilih...</option>
                                                                 ${statusTracking.map(status => `<option value="${status.id}" ${status.id === data.tracking_id ? 'selected' : ''}>${status.nama_tracking}
-                                                                                                                                                                                                                                                                                                                                                                                                                                </option>`)}
+                                                                                                                                                                                                                                                                                                                                                                                                                                    </option>`)}
                                                         </select>
                                                     </div>
                                                 </div>
@@ -496,8 +496,8 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="mb-3">
-                                                            <label for="kode_warna${data.id}" class="form-control-label">Kode Warna</label>
-                                                            <p>${data.kode_warna}</p>
+                                                            <label for="deskripsi${data.id}" class="form-control-label">Deskripsi</label>
+                                                            <p>${data.deskripsi}</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
